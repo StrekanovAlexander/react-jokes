@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 1em 0;
+    text-align: center;
+}
+
+#root {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+input[type='checkbox'] {
+    margin: 0 .5em;
+}
+
+p {
+    padding: 1em;
+}
+
+.checkbox {
+    display: flex;
+    padding: 1em;
+}
+
+.joke-item {
+    align-items: flex-start;
+    border: 1px solid gray;
+    border-radius: .5em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em 
+}
+
+.load {
+    text-align: center;
+}
+
+.load img {
+    width: 100px;
+}
